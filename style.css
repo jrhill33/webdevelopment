@@ -1,0 +1,40 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+}
+
+.hero h1 {
+  color: #45B7DD;
+  font-size: 36px;
+  text-align: center;
+}
+
+.hero p {
+  color: #1F2A33;
+  font-size: 18px;
+}
+
+.hero 
+{
+  background-color: #e1d6b5;
+  padding: 80px 40px;
+}
+.hero a:hover
+ {
+   background-color: #45B7DD;
+}
+
+.hero a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #45B7DD;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
