@@ -8,9 +8,11 @@ header {
 }
 
 .hero h1 {
-  color: #45B7DD;
-  font-size: 36px;
+  color: #4F9CCF;
+  font-size: 48px;
   text-align: center;
+  font-family: "Magnolia Script", cursive;
+
 }
 
 .hero p {
@@ -20,21 +22,48 @@ header {
 
 .hero 
 {
-  background-color: #e1d6b5;
+  background-color:  #e1d6b5;
   padding: 80px 40px;
 }
 .hero a:hover
  {
-   background-color: #45B7DD;
+   background-color:#F59073;
 }
 
 .hero a {
     display: inline-block;
     margin-top: 20px;
     padding: 12px 25px;
-    background-color: #45B7DD;
-    color: white;
+    background-color:#F59073;
+    color:  #1F2A33;
     text-decoration: none;
     border-radius: 5px;
     transition: 0.3s;
+}
+header {font-family: "Montserrat", sans-serif;}
+
+h1 {
+color: #4F9CCF;
+  font-size: 48px;
+  text-align: center;
+  font-family: "Magnolia Script", cursive;}
+
+h2 {
+  color: #1F2A33;
+  font-size: 24px;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  color: #1F2A33;
+  font-size: 24px;
+  text-align: left;
+  font-family: Montserrat,sans-serif;
+}
+blockquote {
+    text-align: center;
+    font-style: italic;
+}
+body {
+  background-color: #e1d6b5;
 }
