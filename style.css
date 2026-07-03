@@ -64,6 +64,16 @@ blockquote {
     text-align: center;
     font-style: italic;
 }
+.pdf-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #F59073;
+  color: #1F2A33;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
 body {
   background-color: #e1d6b5;
 }
