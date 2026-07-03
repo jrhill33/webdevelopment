@@ -74,6 +74,21 @@ blockquote {
   border-radius: 5px;
 }
 
+.certifications {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.certifications li {
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #1F2A33;
+}
+.certifications li:hover {
+  color: #4F9CCF; 
+}
+
 body {
   background-color: #e1d6b5;
 }
