@@ -92,3 +92,47 @@ blockquote {
 body {
   background-color: #e1d6b5;
 }
+
+/* Pseudo-element: First Letter */
+.resource p:first-of-type::first-letter {
+    font-size: 2em;
+    color: #F59073;
+    font-weight: bold;
+}
+
+/* Pseudo-class: Every Other Paragraph */
+.resource p:nth-of-type(even) {
+    text-indent: 2em;
+}
+/* Resource Box Styles */
+.resource-box {
+    border: 2px solid #F59073;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+/*Resource Box Heading Styles */
+.resource-box h2 {
+    color: #4F9CCF;
+}
+/* Link Pseudo-classes */
+a:link {
+    color: #4F9CCF;
+}
+
+a:visited {
+    color: #4F9CCF;
+}
+
+a:hover {
+    color: #F59073;
+}
+
+a:focus {
+    color: #F59073;
+}
+
+a:active {
+    color: #F59073;
+}
