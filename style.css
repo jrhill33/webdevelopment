@@ -27,7 +27,7 @@ header {
 }
 .hero a:hover
  {
-   background-color:#F59073;
+   background-color:#4F9CCF;
 }
 
 .hero a {
@@ -35,7 +35,7 @@ header {
     margin-top: 20px;
     padding: 12px 25px;
     background-color:#F59073;
-    color:  #1F2A33;
+    color:  #4F9CCF;
     text-decoration: none;
     border-radius: 5px;
     transition: 0.3s;
@@ -184,6 +184,9 @@ a:active {
 }
 
 .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown:hover .dropdown-content {
     display: block;
 }
 
