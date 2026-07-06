@@ -68,8 +68,7 @@ blockquote {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 25px;
-  background-color: #F59073;
-  color: #1F2A33;
+  background-color: #1F2A33;
   text-decoration: none;
   border-radius: 5px;
 }
@@ -136,3 +135,67 @@ a:focus {
 a:active {
     color: #F59073;
 }
+/* Dropdown Navigation */
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #1F2A33;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    color: #4F9CCF;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    background-color: #F59073;
+    color: #1F2A33;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #e1d6b5;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    min-width: 220px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.dropdown-menu a {
+    color: #1F2A33;
+}
+
+.dropdown-menu a:hover {
+    background-color: #F59073;
+    color: #1F2A33;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
