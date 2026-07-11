@@ -210,17 +210,45 @@ a:active {
     border-radius: 15px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
 }
+/*Print Styles*/
 
+@media print {
 
+    @page {
+        margin: 1in;
+    }
 
+    body {
+        background: white !important;
+        color: black !important;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 12pt;
+        line-height: 1.4;
+        margin: 0;
+        padding: 0;
+    }
 
+    header,
+    nav,
+    .hero,
+    .resource-box,
+    .profile-image,
+    .intro-video,
+    video,
+    img,
+    .pdf-link,
+    blockquote {
+        display: none !important;
+    }
 
-
-
-
-
-
-
-
-
-
+    h1,
+    h2,
+    h3,
+    p,
+    ul,
+    ol,
+    li,
+    footer {
+        color: black !important;
+    }
+}
