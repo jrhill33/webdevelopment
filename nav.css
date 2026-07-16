@@ -38,6 +38,7 @@ nav a:hover {
 .hamburger {
     display:none;
     font-size: 2rem;
+    color:#E1D6B5;
     cursor: pointer;
 }
 @media screen and (max-width: 768px) {
