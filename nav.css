@@ -32,3 +32,22 @@ nav a:hover {
     color: #1F2A33;
     border-radius: 5px;
 }
+#menu-toggle {
+    display: none;
+}
+.hamburger {
+    display:none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        display: none;
+    }
+
+}
