@@ -1,6 +1,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #e1d6b5;
+  margin: 0;
 }
 
 header {
@@ -65,14 +67,20 @@ blockquote {
     font-style: italic;
 }
 .pdf-link {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 12px 25px;
-  background-color: #1F2A33;
-  text-decoration: none;
-  border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #1F2A33;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
+.pdf-link:hover {
+    background-color: #F59073;
+    color: #1F2A33;
+}
 .certifications {
   list-style-type: circle;
   padding-left: 20px;
@@ -86,10 +94,6 @@ blockquote {
 }
 .certifications li:hover {
   color: #4F9CCF; 
-}
-
-body {
-  background-color: #e1d6b5;
 }
 
 /* Pseudo-element: First Letter */
@@ -112,9 +116,36 @@ body {
     background-color: #ffffff;
 }
 /*Resource Box Heading Styles */
+
 .resource-box h2 {
     color: #4F9CCF;
 }
+/* Project Content */
+
+.project-content {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.project-content img {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.project-text {
+    flex: 1;
+}
+
+.project-text h3 {
+    color: #4F9CCF;
+    margin-top: 0;
+}
+
 /* Link Pseudo-classes */
 a:link {
     color: #4F9CCF;
@@ -135,6 +166,7 @@ a:focus {
 a:active {
     color: #F59073;
 }
+
 /* Dropdown Navigation */
 
 .menu {
@@ -396,18 +428,69 @@ blockquote {
 .credentials-section h2 {
   text-align: center;
 }
-.pdf-link {
-  display: block;
-  text-align: center;
-  margin-bottom: 30px;
-}
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
+    main {
+        padding: 20px;
+    }
+
+    h1,
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .project-content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .project-content img {
+        width: 100%;
+        height: 240px;
+        max-height: none;
+        object-fit: cover;
+    }
+
+    .project-text {
+        width: 100%;
+    }
+
+    .project-text h3 {
+        font-size: 1.4rem;
+    }
+
+    .project-text p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
 
     .about-grid {
         grid-template-columns: 1fr;
     }
 
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
     .profile-image {
         max-width: 300px;
+    }
+
+    .menu {
+        flex-direction: column;
+    }
+
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .contact-section {
+        width: 100%;
     }
 }
