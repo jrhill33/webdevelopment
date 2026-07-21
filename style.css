@@ -9,11 +9,15 @@ header {
   font-family: "Montserrat", sans-serif;
 }
 
+/* Custom font from Google Fonts applied to site */
+/* Custom styles for .hero <h1> elements */
 .hero h1 {
   color: #4F9CCF;
-  font-size: 48px;
+  font-size: 60px;
   text-align: center;
-  font-family: "Magnolia Script", cursive;
+  font-family: "Parisienne", cursive;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
 
 }
 
@@ -43,17 +47,22 @@ header {
 }
 header {font-family: "Montserrat", sans-serif;}
 
+/* Custom font from Google Fonts applied to site */
+/* Custom styles for .hero <h1> elements */
 h1 {
-color: #4F9CCF;
-  font-size: 48px;
-  text-align: center;
-  font-family: "Magnolia Script", cursive;}
+    font-family: "Parisienne", cursive;
+    color: #4F9CCF;
+    font-size: 60px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.3);
+}
 
 h2 {
   color: #1F2A33;
   font-size: 24px;
   text-align: left;
   font-family: "Montserrat", sans-serif;
+  text-decoration: underline;
 }
 h3 {
   color: #1F2A33;
