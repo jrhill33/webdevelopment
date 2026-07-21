@@ -291,6 +291,22 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    color: white;
+    padding: 20px;
+}
+/* Footer icons */
+.footer-icon {
+  width: 35px;
+  vertical-align: middle;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;           
+}
+
+.footer-icon:hover {
+  transform: scale(1.2);
+       
 }
 
 .contact {
