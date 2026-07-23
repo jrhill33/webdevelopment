@@ -5,10 +5,6 @@ body {
   margin: 0;
 }
 
-header {
-  font-family: "Montserrat", sans-serif;
-}
-
 /* Custom font from Google Fonts applied to site */
 /* Custom styles for .hero <h1> elements */
 .hero h1 {
@@ -20,7 +16,6 @@ header {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3)
 
 }
-
 .hero p {
   color: #1F2A33;
   font-size: 18px;
@@ -30,25 +25,48 @@ header {
   background-color: #e1d6b5;
   padding: 50px 40px 25px;
 }
-.hero a:hover
- {
-   background-color:#4F9CCF;
+.hero-image {
+  text-align: center;
+  background-color: #e1d6b5;
+  padding: 30px 0;
 }
 
-.hero a {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 12px 25px;
-    background-color:#F59073;
-    color:  #4F9CCF;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: 0.3s;
+.collage-image {
+  display: block;
+  width: 90%;
+  max-width: 1100px;
+  height: auto;
+  margin: 0 auto;
 }
+
+.hero-welcome {
+    text-align: center;
+    max-width: 900px;
+    margin: 40px auto;
+    line-height: 1.6;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 14px 28px;
+     background-color:  #1F2A33;
+    color: #1F2A33;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button-hover {
+background-color: #4F9CCF;
+    color: white;
+}
+
 header {font-family: "Montserrat", sans-serif;}
 
-/* Custom font from Google Fonts applied to site */
-/* Custom styles for .hero <h1> elements */
+
+/* Custom font from Google Fonts applied to site <h1> */
 h1 {
     font-family: "Parisienne", cursive;
     color: #4F9CCF;
@@ -455,6 +473,57 @@ blockquote {
 .credentials-section h2 {
   text-align: center;
 }
+
+/* Travel Planning Table */
+
+.table-container {
+    overflow-x: auto;
+    margin: 2rem 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #1F2A33;
+}
+
+caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #1F2A33;
+    padding: 10px;
+}
+
+th,
+td {
+    border: 1px solid #1F2A33;
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+    background-color: #1F2A33;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #EAF4FB;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+@media (max-width: 768px) {
+    table {
+        font-size: 0.9rem;
+    }
+
+    th,
+    td {
+        padding: 8px;
+    }
+}
 @media screen and (max-width: 768px) {
 
     main {
@@ -520,4 +589,12 @@ blockquote {
     .contact-section {
         width: 100%;
     }
+}
+table {
+    font-size: 0.9rem;
+}
+
+th,
+td {
+    padding: 8px;
 }
